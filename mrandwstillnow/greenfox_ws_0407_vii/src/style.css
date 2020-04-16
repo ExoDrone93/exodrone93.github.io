@@ -1,0 +1,26 @@
+main{
+  width: 330px;
+  height: 100%;
+  text-align:left;
+  font-family: 'Oswald', sans-serif;
+}
+fieldset{
+  margin-top: 5px;
+  background: #3BEC9C;
+  border: 1px solid white;
+}
+legend{
+  background: #13E285;
+  border: 1px solid white;
+}
+.legwrit{
+  background: #7CF6BF;
+}
+.writ{
+  background: #C2FFE4;
+}
+button {
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}

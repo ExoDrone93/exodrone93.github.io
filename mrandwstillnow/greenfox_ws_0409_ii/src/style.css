@@ -1,0 +1,22 @@
+.bigbox{
+  max-width: 800px;
+  margin: auto;
+  position: absolute;
+  right: 250px;
+  left: 250px;
+  top: 250px;
+  bottom: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+img{
+  width: 150px;
+  margin: 30px;
+}
+img:hover{
+  width: 200px;
+  margin:0px;
+}
+

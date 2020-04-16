@@ -1,0 +1,28 @@
+form, div {
+  font-family: 'Roboto Slab', serif;
+}
+h1 {
+/*any color after # red, green, blue */
+  background:#990000;
+  color:white;
+}
+#title{
+  margin: 2%;
+  border: 5px solid black;
+  padding: 2%;
+  width: 92%;
+  height: 100%;
+  font-size: 100px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+form {
+  background: #666666;
+}
+
+li {
+  background: yellow;
+}
+.bluebg, ol {
+  background: blue;
+}

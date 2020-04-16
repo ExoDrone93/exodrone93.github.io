@@ -1,0 +1,22 @@
+div{
+  border: 5px solid #4285f4;
+  margin: 5px;
+  width: 200px;
+  height: 100%;
+}
+p{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+}
+.red{
+  background: #E67676;
+  margin: 0px;
+  padding: 10px;
+}
+.blue{
+  background: #A9E6E6;
+  margin: 0px;
+  padding: 10px;
+}

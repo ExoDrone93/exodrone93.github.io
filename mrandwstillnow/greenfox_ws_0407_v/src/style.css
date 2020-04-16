@@ -1,0 +1,23 @@
+main{
+  width: 500px;
+  height: 100%;
+}
+h1{
+  color: #27AE60;
+}
+h2{
+  color: #2E3CC1;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: upper-roman;
+  color: #832EC1;
+  text-decoration: underline;
+}
+.black{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}

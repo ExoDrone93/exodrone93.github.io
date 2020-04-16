@@ -1,0 +1,38 @@
+header{
+  background: aqua;
+  height: 80px;
+}
+div{
+  height: 1500px;
+  display: flex;
+}
+.left{
+  background: orange;
+  flex-grow:1;
+}
+.right{
+  background: purple;
+  flex-grow: 1;
+}
+main{
+  background: red;
+  flex-grow: 3;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+}
+footer{
+  height: 100px;
+  background: blue;
+}
+a{
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: black;
+  position: absolute;
+  bottom: 20px;
+}

@@ -1,0 +1,181 @@
+header{
+    width: 1600px;
+    height: 100px;
+    background: white;
+    margin: auto;
+    display: flex;
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.headermain{
+    background: white;
+    flex-grow: 17.3;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    position: relative;
+    color: #3c3c3b;
+}
+header h1{
+    font-size: 48px;
+    height: 50px;
+    position: absolute;
+    top: -30px;
+}
+header h2{
+    font-size: 32px;
+    height: 35px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.logo{
+    height: 90px;;
+}
+.side{
+    background: white;
+    flex-grow: 1;
+    text-align: center;
+    padding: 5px;
+}
+.container{
+    max-width: 1200px;
+    height: 1000px;
+    margin-top: 100px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: top;
+    position: relative;
+}
+.material{
+    background: white;
+    width: 50%;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+.titlematerial{
+    width: 100%;
+    background: #007335;
+    height: 70px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    font-size: 20px;
+}
+.titlematerial:hover{
+    background-color:#3e8e41;
+    box-shadow: 0px 0px 5px grey;
+}
+.contentmaterial{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50%;
+    overflow: auto;
+    z-index: 1;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    font-size: 20px;
+    box-shadow: grey;
+    box-shadow: 0px 0px 5px grey;
+}
+.contentmaterial a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contentmaterial a:hover{
+    background-color: #f1f1f1
+}
+.material:hover .contentmaterial{
+    display: block;
+    position: sticky;
+    top: 50px;
+}
+.workshop{
+    background: white;
+    width: 50%;
+    height: 70px;
+    display: relative;
+    position: sticky;
+    top: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.titleworkshop{
+    width: 100%;
+    background: #007335;
+    height: 70px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    font-size: 20px;
+}
+.contentworkshop{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50%;
+    overflow: auto;
+    z-index: 1;
+    font-size: 20px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px grey;
+}
+.titleworkshop:hover{
+    background-color:#3e8e41;
+    box-shadow: 0px 0px 5px grey;
+}
+.contentworkshop a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contentworkshop a:hover{
+    background-color: #f1f1f1
+}
+.workshop:hover .contentworkshop{
+    display: block;
+    position: sticky;
+    top: 50px;
+}
+.maincontent{
+    height: 900px;
+    background-color:white;
+    width: 100%;
+    padding-top: 30px;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    background: indigo;
+    margin-top: 10px;
+}
